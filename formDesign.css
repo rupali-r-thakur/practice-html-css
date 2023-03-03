@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maindiv-container {
+  /* background-color: rgb(187, 235, 235); */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.form-box-container {
+  height: 90%;
+  width: 30%;
+  /* background-color: red; */
+  padding-left: 20px;
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+.name-container {
+  /* background-color: yellow; */
+  height: 70px;
+  position: relative;
+  padding-top: 30px;
+}
+
+.firstName {
+  /* background-color: blue; */
+  width: 50%;
+  height: 50px;
+  position: absolute;
+}
+.lastName {
+  /* background-color: green; */
+  height: 50px;
+  width: 50%;
+  float: right;
+  right: 0;
+  position: absolute;
+}
+.name {
+  font-size: 20px;
+}
+.nameValue {
+  height: 55%;
+  width: 80%;
+  border: 1px gray solid;
+}
+input:hover {
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.emailJob-container {
+  /* background-color: reds; */
+  height: 80px;
+  position: relative;
+  padding-top: 30px;
+}
+.email {
+  width: 50%;
+  height: 50px;
+  position: absolute;
+}
+.jobRule {
+  height: 50px;
+  width: 50%;
+  float: right;
+  right: 0;
+  position: absolute;
+}
+.emailJob {
+  font-size: 20px;
+}
+.emaiJobValue {
+  height: 55%;
+  width: 80%;
+  border: 1px gray solid;
+}
+.address {
+  margin-left: 0;
+  margin-top: 20px;
+}
+.addressValue {
+  width: 80%;
+  height: 15%;
+  border: 1px gray solid;
+}
+.cityPincode-container {
+  height: 60px;
+  position: relative;
+  padding-top: 30px;
+}
+.city {
+  width: 50%;
+  height: 50px;
+  position: absolute;
+}
+.pin-code {
+  height: 50px;
+  width: 50%;
+  float: right;
+  right: 0;
+  position: absolute;
+}
+.city-pinCode {
+  font-size: 20px;
+}
+.city-pinCode-value {
+  height: 55%;
+  width: 80%;
+  border: 1px gray solid;
+}
+.date-cv-container {
+  height: 70px;
+  position: relative;
+  padding-top: 30px;
+  /* background-color: blue; */
+  margin-top: 10px;
+}
+.date {
+  width: 50%;
+  height: 50px;
+  position: absolute;
+}
+.cv {
+  height: 50px;
+  width: 50%;
+  float: right;
+  right: 0;
+  position: absolute;
+}
+.date-cv {
+  font-size: 20px;
+}
+.date-cv-value {
+  height: 55%;
+  width: 80%;
+  border: 1px gray solid;
+}
+.button {
+  /* background-color: blue; */
+  height: 10%;
+  margin-top: 15px;
+}
+input:focus{
+  outline: none;
+}
+button {
+  float: right;
+  margin-top: 30px;
+  margin-right: 70px;
+  height: 25px;
+  width: 30%;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
