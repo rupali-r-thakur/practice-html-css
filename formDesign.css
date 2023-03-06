@@ -19,7 +19,6 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 .form-box-container {
-  height: 90%;
   width: 30%;
   /* background-color: red; */
   padding-left: 20px;
@@ -94,7 +93,7 @@ input:hover {
 }
 .addressValue {
   width: 80%;
-  height: 15%;
+  height: 50px;
   border: 1px gray solid;
 }
 .cityPincode-container {
